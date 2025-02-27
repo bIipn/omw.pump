@@ -1,0 +1,9 @@
+[provider]
+cluster = "localnet" 
+wallet = "~/.config/solana/id.json"  
+
+[programs.devnet]
+omw_pump = "CvL7m1eG9ABzYUErC6VfXBaYdKWiSw5MrZQMa7QP9Cs4" 
+
+[scripts]
+test = "anchor test"

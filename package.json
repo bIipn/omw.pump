@@ -1,0 +1,67 @@
+{
+  "name": "omw-pump-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@ethersproject/signing-key": "^5.7.0",
+    "@ethersproject/transactions": "^5.7.0",
+    "@solana/wallet-adapter-base": "0.9.23",
+    "@solana/wallet-adapter-react": "0.15.35",
+    "@solana/wallet-adapter-react-ui": "0.9.23",
+    "@solana/wallet-adapter-wallets": "0.19.32",
+    "@solana/web3.js": "1.98.0",
+    "@types/chai": "^5.0.1",
+    "@walletconnect/core": "^2.17.0",
+    "@walletconnect/sign-client": "^2.17.0",
+    "@walletconnect/utils": "^2.17.0",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.7.9",
+    "chai": "^5.2.0",
+    "css-select": "^5.1.0",
+    "postcss": "^8.5.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1",
+    "request": "^2.88.2",
+    "resolve-url-loader": "^5.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "serialize-javascript": "^6.0.2",
+    "svgo": "^3.3.2",
+    "tailwindcss": "^4.0.8",
+    "workbox-build": "^7.0.0"
+  },
+  "resolutions": {
+    "elliptic": "^6.6.1",
+    "nth-check": "^2.1.1",
+    "postcss": "^8.5.3",
+    "serialize-javascript": "^6.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10"
+  }
+}
