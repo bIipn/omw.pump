@@ -1,2 +1,2 @@
-# omw.pump
+# bolt.pump
 meme coin deployer
